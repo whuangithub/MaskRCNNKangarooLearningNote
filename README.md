@@ -6,6 +6,7 @@ The tutorial:https://machinelearningmastery.com/how-to-train-an-object-detection
 I run this project on the Docker image tensorflow/tensorflow:1.15.0-gpu-py3 with several package installed.
 
 The main problem I met is:
+
     # Error : Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
     # https://github.com/tensorflow/tensorflow/issues/24828
     # Suggests the following solution
